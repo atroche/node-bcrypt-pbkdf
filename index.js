@@ -465,8 +465,8 @@ Blowfish.prototype.dec = function(data, blocks) {
   }
 };
 
-var BCRYPT_BLOCKS = 8,
-    BCRYPT_HASHSIZE = 32;
+var BCRYPT_BLOCKS = 8;
+var BCRYPT_HASHSIZE = 32;
 
 function bcrypt_hash(sha2pass, sha2salt, out) {
   var state = new Blowfish(),
