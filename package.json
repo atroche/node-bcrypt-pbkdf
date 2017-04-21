@@ -4,7 +4,7 @@
   "description": "Port of the OpenBSD bcrypt_pbkdf function to pure JS",
   "main": "index.js",
   "dependencies": {
-    "tweetnacl": "^0.14.3"
+    "tweetnacl": "atroche/tweetnacl-js"
   },
   "devDependencies": {},
   "license": "BSD-3-Clause"
